@@ -19,9 +19,9 @@
 
 :root {
   --main-color: #f59d8f;
-  --secondary-color: #111821;
+  --secondary-color: #131313;
   --body-color: #f9f6eb;
-  --white-color: #ffffff;
+  --white-color: #f9f5ea;
   --teal-color:#BEE5DF;
   --main-font: "Poppins", sans-serif;
   --secondary-font: "GreycliffHebrewCF", sans-serif;
@@ -29,7 +29,7 @@
   --font-size-h2: 47px;
   --font-size-h3: 42px;
   --font-size-h4: 36px;
-  --font-size-h5: 27px;
+  --font-size-h5: 1.5em;
   --font-size-h1-small: 36px;
   --font-size-h2-small: 25px;
   --font-size-h3-small: 22px;
@@ -231,7 +231,7 @@ h4.c-name{
 }
 }
 .pt-200{
-  padding-top: 200px;
+  padding-top: 60px;
 }
 .mb-200{
   margin-bottom: 200px;

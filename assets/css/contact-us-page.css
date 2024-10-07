@@ -3,13 +3,14 @@
   padding: 240px 0 30px;
 }
 .contactus_hero h2 {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .contactus_hero h1 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .contactus_hero h5 {
   margin-bottom: 50px;
+  padding-left: 70px;
 }
 .contactus_hero .contact-card {
   background-color: var(--white-color);
@@ -25,7 +26,7 @@
 .contactus_hero .contact-card form {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 35px;
   align-items: center;
 }
 .contactus_hero .contact-card form .input_wrapper {
@@ -35,6 +36,7 @@
   width: 100%;
   border: 0;
   border-bottom: 1px solid var(--secondary-color);
+  background: #f9f5ea;
 }
 .contactus_hero .contact-card form .input_wrapper input:focus {
   border: 0;
@@ -45,6 +47,7 @@
   width: 100%;
   border: 0;
   border-bottom: 1px solid var(--secondary-color);
+  background: #f9f5ea;
 }
 .contactus_hero .contact-card form .input_wrapper textarea:focus {
   border: 0;
@@ -68,3 +71,9 @@
 .contact-info {
   padding: 150px 0;
 }/*# sourceMappingURL=contact-us-page.css.map */
+
+@media screen and (max-width: 767px) {
+  .contactus_hero h5 {
+    padding-left: 0px;
+}
+}

@@ -8,12 +8,15 @@
 }
 .hero_wrapper .left_wrapper h3.red {
   color: red;
+  position: absolute;
+  margin-top: -33px;
 }
 .hero_wrapper .left_wrapper .reviews {
   display: flex;
   align-items: center;
   align-items: center;
   gap: 10px;
+  margin-top: 25px;
 }
 .hero_wrapper .left_wrapper .reviews span {
   display: flex;
@@ -250,7 +253,6 @@
   background-repeat: no-repeat;
   background-size: 650px;
   width: 100%;
-  background-attachment: fixed;
 }
 .info_pd .info-card {
   background-color: var(--white-color);
@@ -293,11 +295,12 @@
 }
 .testimonial h1 {
   color: var(--main-color);
-  margin-bottom: 80px;
+  width: 50%;
+  margin: 0 auto 80px;
 }
 .testimonial .c_ratings {
   background-color: var(--white-color);
-  padding: 20px;
+  padding: 38px;
   text-align: center;
 }
 .testimonial .c_ratings span {
@@ -354,11 +357,10 @@
 .buy-now-paralax {
   padding: 120px 0 250px 0;
   background-image: url("../img/buy-n-w-bg.jpg");
-  background-position: 100%;
+  background-position: 60%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 .buy-now-paralax button.btn.buy-now {
   border: 1px solid var(--secondary-color);
@@ -377,7 +379,7 @@
 }
 
 .similer_product {
-  padding: 80px 0;
+  padding: 110px 0;
   background-color: var(--body-color);
 }
 .similer_product h4 {
@@ -404,6 +406,7 @@
 }
 .similer_product .sm_product_wrapper .sm_pd_price {
   min-width: 100%;
+  font-weight: 400;
 }
 .similer_product .sm_product_wrapper button.buy-now {
   border: 1px solid var(--secondary-color);
@@ -428,7 +431,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 .emp_comunity button.learn_more {
   border: 1px solid var(--secondary-color);
@@ -447,6 +449,10 @@
   display: block;
   margin: 30px auto;
   margin-bottom: 150px;
+}
+
+.gallery-thumbs img {
+  border-radius: 20px;
 }
 
 /* Responsive adjustments */

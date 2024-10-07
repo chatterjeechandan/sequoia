@@ -20,28 +20,13 @@ var swiper2 = new Swiper(".gallery-top", {
     disableOnInteraction: true,
   },
 });
-Fancybox.bind('[data-fancybox="gallery"]', {
-  compact: false,
-  contentClick: "iterateZoom",
-  Images: {
-    Panzoom: {
-      maxScale: 2,
-    },
-  },
-  Toolbar: {
-    display: {
-      left: ["infobar"],
-      middle: [],
-      right: ["iterateZoom", "close"],
-    },
-  },
-});
-
 var  swiper_testimonial = new Swiper(".testimonial-swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
   centeredSlides:true,
+  slidesPerView: 4,
+  
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 320px
@@ -73,12 +58,12 @@ var  swiper_testimonial = new Swiper(".testimonial-swiper", {
     },
   },
   // If we need pagination
-  pagination: { el: '.swiper-pagination', clickable: true },
+  pagination: { el: '.swiper-pagination.pg-2', clickable: true },
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next.pg-2",
+    prevEl: ".swiper-button-prev.pg-2",
   },
 });
 var  home_swiper = new Swiper(".home_swiper", {
@@ -224,3 +209,19 @@ var info_pd_swiper = new Swiper(".info_pd_swiper", {
   },
 });
 
+Fancybox.bind('[data-fancybox="gallery"]', {
+  compact: false,
+  contentClick: "iterateZoom",
+  Images: {
+    Panzoom: {
+      maxScale: 2,
+    },
+  },
+  Toolbar: {
+    display: {
+      left: ["infobar"],
+      middle: [],
+      right: ["iterateZoom", "close"],
+    },
+  },
+});

@@ -13,9 +13,9 @@
 }
 :root {
   --main-color: #f59d8f;
-  --secondary-color: #111821;
+  --secondary-color: #131313;
   --body-color: #f9f6eb;
-  --white-color: #ffffff;
+  --white-color: #f9f5ea;
   --teal-color:#BEE5DF;
   --main-font: "Poppins", sans-serif;
   --secondary-font: "GreycliffHebrewCF", sans-serif;
@@ -23,7 +23,7 @@
   --font-size-h2: 47px;
   --font-size-h3: 42px;
   --font-size-h4: 36px;
-  --font-size-h5: 27px;
+  --font-size-h5: 1.5em;
   --font-size-h1-small: 36px;
   --font-size-h2-small: 25px;
   --font-size-h3-small: 22px;
@@ -101,7 +101,7 @@ header .navbar-toggler {
   border: 0;
 }
 header .header-logo {
-  width: 250px;
+  width: 150px;
   height: 48px;
 }
 header .navbar-nav {
@@ -110,7 +110,7 @@ header .navbar-nav {
 }
 header .nav-item .nav-link {
   font-family: "GreycliffHebrewCF_bold";
-  font-size: 25px;
+  font-size: 21px;
 }
 header .nav-item .btn.buy-now {
   font-size: var(--font-size-body);
@@ -221,11 +221,11 @@ footer .rgs p {
 }
 
 .pt-200 {
-  padding-top: 200px;
+  padding-top: 60px;
 }
 
 .mb-200 {
-  margin-bottom: 200px;
+  margin-bottom: 60px;
 }
 
 /* Responsive adjustments */
@@ -239,7 +239,7 @@ footer .rgs p {
     border: 0;
   }
   header .header-logo {
-    width: 180px;
+    width: 150px;
     height: auto;
   }
   header .navbar-nav {
@@ -248,7 +248,7 @@ footer .rgs p {
   }
   header .nav-item .nav-link {
     font-family: "GreycliffHebrewCF_bold";
-    font-size: 25px;
+    font-size: 21px;
   }
   header .nav-item .btn.buy-now {
     font-size: var(--font-size-body);
@@ -328,6 +328,6 @@ footer .rgs p {
   }
   header .nav-item .nav-link {
     font-family: "GreycliffHebrewCF_bold";
-    font-size: 25px;
+    font-size: 21px;
   }
 }/*# sourceMappingURL=style.css.map */

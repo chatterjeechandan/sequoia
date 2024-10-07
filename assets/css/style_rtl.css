@@ -2,7 +2,8 @@ html[dir=rtl] .navbar.bg-main .container-fluid {
   padding: 0 1.5rem;
 }
 html[dir=rtl] header .navbar-nav {
-  margin-left: auto;
+  margin-right: auto;
+  margin-left: 0;
   gap: 30px;
 }
 html[dir=rtl] .navbar-brand {

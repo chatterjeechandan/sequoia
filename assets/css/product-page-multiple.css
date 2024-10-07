@@ -8,12 +8,15 @@
 }
 .hero_wrapper .left_wrapper h3.red {
   color: red;
+  position: absolute;
+  margin-top: -33px;
 }
 .hero_wrapper .left_wrapper .reviews {
   display: flex;
   align-items: center;
   align-items: center;
   gap: 10px;
+  margin-top: 25px;
 }
 .hero_wrapper .left_wrapper .reviews span {
   display: flex;
@@ -93,8 +96,8 @@
 }
 .hero_wrapper .right_wrapper .mt-g-images .round-text {
   padding: 20px;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   background-color: var(--teal-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -109,6 +112,15 @@
   top: 0;
   right: 0;
   box-shadow: -8px 8px 12px 10px rgba(0, 0, 0, 0.4509803922);
+}
+
+.hero_wrapper .right_wrapper .mt-g-images .round-text h1 {
+  font-size: 30px;
+}
+
+.hero_wrapper .right_wrapper .mt-g-images .round-text h5 {
+  font-size: 22px;
+  text-align: center;
 }
 
 .frequently_brought {
@@ -145,7 +157,7 @@
 .lg-sec .bottle_wrapper .top_gg {
   text-align: center;
   background: linear-gradient(180deg, rgb(190, 229, 223) 80%, rgba(255, 255, 255, 0) 100%);
-  margin-bottom: -65px;
+  margin-bottom: 15px;
   z-index: 99;
   position: relative;
   min-width: 150px;
@@ -308,7 +320,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 .info_pd.ag .info-card {
   background-color: var(--white-color);
@@ -386,11 +397,12 @@
 }
 .testimonial h1 {
   color: var(--main-color);
-  margin-bottom: 80px;
+  width: 50%;
+  margin: 0 auto 80px;
 }
 .testimonial .c_ratings {
   background-color: var(--white-color);
-  padding: 20px;
+  padding: 38px;
   text-align: center;
 }
 .testimonial .c_ratings span {
@@ -447,11 +459,10 @@
 .buy-now-paralax {
   padding: 120px 0 250px 0;
   background-image: url("../img/buy-n-w-bg.jpg");
-  background-position: 100%;
+  background-position: 60%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 .buy-now-paralax button.btn.buy-now {
   border: 1px solid var(--secondary-color);
@@ -470,7 +481,7 @@
 }
 
 .similer_product {
-  padding: 80px 0;
+  padding: 110px 0;
   background-color: var(--body-color);
 }
 .similer_product h4 {
@@ -497,6 +508,7 @@
 }
 .similer_product .sm_product_wrapper .sm_pd_price {
   min-width: 100%;
+  font-weight: 400;
 }
 .similer_product .sm_product_wrapper button.buy-now {
   border: 1px solid var(--secondary-color);
@@ -521,7 +533,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 .emp_comunity button.learn_more {
   border: 1px solid var(--secondary-color);
@@ -571,8 +582,8 @@
 }
 @media screen and (max-width: 1199px) {
   .hero_wrapper .right_wrapper .mt-g-images .round-text {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
   }
   .hero_wrapper .right_wrapper .mt-g-images .absolt-img img {
     position: absolute;

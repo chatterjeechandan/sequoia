@@ -251,7 +251,6 @@
     background-repeat: no-repeat;
     background-size: 650px;
     width: 100%;
-    background-attachment: fixed;
   
     .info-card {
       background-color: var(--white-color);
@@ -356,11 +355,10 @@
   .buy-now-paralax {
     padding: 120px 0 250px 0;
     background-image: url("../img/buy-n-w-bg.jpg");
-    background-position: 100%;
+    background-position: 60%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    background-attachment: fixed;
     button {
       &.btn.buy-now {
         border: 1px solid var(--secondary-color);
@@ -380,7 +378,7 @@
     }
   }
   .similer_product{
-    padding: 80px 0;
+    padding: 110px 0;
     background-color: var(--body-color);
     h4{
       margin-bottom: 80px;
@@ -433,7 +431,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    background-attachment: fixed;
     button{
       &.learn_more{
         border: 1px solid var(--secondary-color);
