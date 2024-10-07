@@ -1,0 +1,68 @@
+html[dir=rtl] .navbar.bg-main .container-fluid {
+  padding: 0 1.5rem;
+}
+html[dir=rtl] header .navbar-nav {
+  margin-left: auto;
+  gap: 30px;
+}
+html[dir=rtl] .navbar-brand {
+  margin-right: 0;
+  margin-left: var(--bs-navbar-brand-margin-end);
+}
+html[dir=rtl] .border-custom.br {
+  border-top: 0;
+  border-left: 1px solid;
+  border-right: 0;
+}
+html[dir=rtl] .info_pd {
+  background-position: 110% 15%;
+}
+html[dir=rtl] .testimonial .swiper_controls .swiper-button-prev {
+  transform: rotate(180deg);
+}
+html[dir=rtl] .testimonial .swiper_controls .swiper-button-next {
+  transform: rotate(180deg);
+}
+html[dir=rtl] footer .newsletter .input-group .input-group-text {
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  margin-right: -2px;
+  z-index: 9;
+}
+html[dir=rtl] footer .newsletter .input-group input {
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+html[dir=rtl] .empowering-section-aboutus {
+  background-image: url("../img/bg-sec-rtl.jpg");
+}
+html[dir=rtl] .how-it-made {
+  background-position: 10% 125%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 991px) {
+  html[dir=rtl] .how-it-made {
+    min-height: 500px;
+    background-size: 400px;
+    background-position: 10% 135%;
+  }
+  html[dir=rtl] .empowering-section-aboutus {
+    background-color: #000000;
+    background-image: none;
+  }
+  html[dir=rtl] .feild-bg {
+    display: block;
+  }
+  html[dir=rtl] .feild-bg img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+}/*# sourceMappingURL=style_rtl.css.map */

@@ -1,0 +1,617 @@
+
+.hero_wrapper {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: var(--main-color);
+    .left_wrapper {
+      h3 {
+        font-weight: 500;
+        &.red {
+          color: red;
+        }
+      }
+      .reviews {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        gap: 10px;
+        span {
+          display: flex;
+          align-items: center;
+        }
+        p {
+          margin: 0;
+        }
+      }
+      .price {
+        margin-top: 50px;
+        font-family: "GreycliffHebrewCF";
+        margin-bottom: 30px;
+      }
+      .quantity-section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        button {
+          height: 60px;
+          width: 60px;
+          border: 1px solid var(--secondary-color);
+          color: var(--secondary-color);
+          background-color: transparent;
+          font-size: 36px;
+        }
+        span {
+          width: 50px;
+          text-align: center;
+          display: inline-block;
+        }
+      }
+      .add_to_cart {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 20px;
+        button {
+          width: 325px;
+          height: 53px;
+          border: 1px solid var(--secondary-color);
+          color: white;
+          background-color: var(--secondary-color);
+          font-size: 21px;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          text-transform: uppercase;
+          font-family: var(--main-font);
+        }
+      }
+      .thursted_certificates {
+        display: flex;
+        align-items: baseline;
+        gap: 60px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        img {
+          width: auto;
+          height: 130px;
+        }
+      }
+    }
+    .right_wrapper {
+      .gallery-top {
+        .swiper-slide {
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+          img {
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+  .frequently_brought {
+    background-color: var(--body-color);
+    padding: 80px 0;
+  }
+  .border-custom {
+    border: 1px solid var(--secondary-color);
+    &.br {
+      border-top: 0;
+      border-left: 0;
+      &:last-of-type {
+        border-bottom: 0;
+      }
+    }
+    // padding: 20px;
+  }
+  
+  .product-img {
+    background-color: transparent;
+    padding: 15px 30px 15px 30px;
+    img {
+      width: 100px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  .g1 {
+    flex: 1 1 auto;
+  }
+  .product-description {
+    color: var(--secondary-color);
+  }
+  
+  .price {
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+  
+  .total-price {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cart-btn {
+    border: 1px solid var(--secondary-color);
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+  }
+  
+  .cart-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  .pd_s {
+    padding: 120px 0;
+    background-color: var(--secondary-color);
+    h1 {
+      color: var(--white-color);
+      margin-bottom: 80px;
+    }
+    .capsule {
+      padding: 10px;
+      background-color: var(--main-color);
+      margin-bottom: 25px;
+      min-height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      h5 {
+        color: var(--secondary-color);
+        text-align: center;
+      }
+    }
+  }
+  .whats_inside {
+    padding: 80px 0;
+    background-color: var(--body-color);
+    .product_wrapper {
+      margin-top: 80px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      img {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+      }
+      h5 {
+        margin: 15px 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
+  .body_thanks {
+    padding: 120px 0;
+    background-color: var(--secondary-color);
+    h1 {
+      color: var(--main-color);
+      margin-bottom: 80px;
+    }
+    h5 {
+      color: var(--white-color);
+      margin-bottom: 80px;
+    }
+    .icon_wrapper {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 15px;
+      img {
+        height: 130px;
+        width: auto;
+      }
+      h5 {
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .info_pd {
+    padding: 80px 0;
+    background-color: var(--main-color);
+    background-image: url("../img/bottle_side.png");
+    background-position: -15% 200px;
+    background-repeat: no-repeat;
+    background-size: 650px;
+    width: 100%;
+    background-attachment: fixed;
+  
+    .info-card {
+      background-color: var(--white-color);
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      overflow: hidden;
+      .info-card-header {
+        padding: 15px;
+        h1 {
+          text-align: center;
+          margin: 0;
+        }
+      }
+      .info-card-body {
+        padding: 15px;
+        background-color: #ffb0a5;
+        table {
+          h5 {
+            margin: 0;
+          }
+          p {
+            margin: 0;
+          }
+          th {
+            border-bottom: 1px solid var(--secondary-color);
+            padding: 10px;
+          }
+          td {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+  .testimonial {
+    padding: 120px 0;
+    background-color: var(--secondary-color);
+    h1 {
+      color: var(--main-color);
+      margin-bottom: 80px;
+    }
+    .c_ratings {
+      background-color: var(--white-color);
+      padding: 20px;
+      text-align: center;
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+    .swiper_controls {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  
+      margin-top: 100px;
+      .swiper-pagination {
+        position: static;
+        width: auto;
+        .swiper-pagination-bullet {
+          background: var(--white-color);
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .swiper-button-prev {
+        position: static;
+        color: var(--white-color);
+        font-size: 42px;
+        margin: 0;
+      }
+      .swiper-button-next {
+        position: static;
+        color: var(--white-color);
+        font-size: 42px;
+        margin: 0;
+      }
+      .swiper-button-next:after,
+      .swiper-button-prev:after {
+        content: none;
+      }
+    }
+  }
+  .reason {
+    padding: 120px 0;
+    background-color: var(--body-color);
+    h1 {
+      margin-bottom: 100px;
+    }
+    .mb-80 {
+      margin-bottom: 80px;
+    }
+  }
+  .buy-now-paralax {
+    padding: 120px 0 250px 0;
+    background-image: url("../img/buy-n-w-bg.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    button {
+      &.btn.buy-now {
+        border: 1px solid var(--secondary-color);
+        color: white;
+        background-color: var(--secondary-color);
+        font-size: 21px;
+        border-radius: 5px;
+        padding: 15px 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-transform: uppercase;
+        font-family: var(--main-font);
+        min-width: 300px;
+      }
+    }
+  }
+  .similer_product{
+    padding: 80px 0;
+    background-color: var(--body-color);
+    h4{
+      margin-bottom: 80px;
+    }
+    .sm_product_wrapper{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      padding: 15px;
+      margin-bottom: 30px;
+      img{
+        height: 300px;
+        width: auto;
+  
+      }
+      .pd_name{
+        min-width: 100%;
+      }
+      .pd_des{
+        min-width: 100%;
+        margin-bottom: 50px;
+      }
+      .sm_pd_price{
+        min-width: 100%;
+      }
+      button{
+        &.buy-now{
+          border: 1px solid var(--secondary-color);
+          color: white;
+          background-color: var(--secondary-color);
+          font-size: 21px;
+          border-radius: 5px;
+          padding: 15px 10px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          text-transform: uppercase;
+          font-family: var(--main-font);
+          min-width: 100%;
+        }
+      }
+    }
+  }
+  .emp_comunity{
+    padding: 80px 0 150px 0;
+    background-image: url("../img/upper_ft_bg.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    button{
+      &.learn_more{
+        border: 1px solid var(--secondary-color);
+        color: white;
+        background-color: var(--secondary-color);
+        font-size: 21px;
+        border-radius: 5px;
+        padding: 15px 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-transform: uppercase;
+        font-family: var(--main-font);
+        min-width: 300px;
+        display: block;
+        margin: 30px auto;
+        margin-bottom: 150px;
+      }
+    }
+  
+  }
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .total-price {
+      text-align: left;
+    }
+  
+    .cart-btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) and (min-width: 1024px) {
+   
+    .info_pd {
+      padding: 80px 0;
+      background-color: var(--main-color);
+      background-image: url(../img/bottle_side.png);
+      background-position: -60% 320px;
+      background-repeat: no-repeat;
+      background-size: 650px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+   
+    .info_pd {
+      padding: 80px 0;
+      background-color: var(--main-color);
+      background-image: none;
+      background-position: -60% 320px;
+      background-repeat: no-repeat;
+      background-size: 650px;
+      width: 100%;
+    }
+    .hero_wrapper {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .left_wrapper {
+        margin-top: 50px;
+        .add_to_cart {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 20px;
+          button {
+            width: 150px;
+            height: 53px;
+            border: 1px solid var(--secondary-color);
+            color: white;
+            background-color: var(--secondary-color);
+            font-size: 16px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            text-transform: uppercase;
+            font-family: var(--main-font);
+          }
+        }
+        .thursted_certificates {
+          display: flex;
+          align-items: baseline;
+          gap: 30px;
+          margin-top: 80px;
+          img {
+            width: auto;
+            height: 90px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .reason {
+      padding: 120px 0;
+      background-color: var(--body-color);
+      h1 {
+        margin-bottom: 100px;
+      }
+      .mb-80 {
+        margin-bottom: 50px;
+      }
+      img {
+        margin-bottom: 30px;
+        width: 150px;
+        display: block;
+        margin: 0 auto 30px;
+      }
+      .rvs {
+        flex-direction: column-reverse;
+      }
+      h4 {
+        text-align: center !important;
+      }
+      p {
+        text-align: center !important;
+      }
+      .text-end {
+        text-align: center !important;
+      }
+    }
+    .border-custom {
+      border: 1px solid var(--secondary-color);
+      &.br {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        &:last-of-type {
+          border-bottom: 1px solid var(--secondary-color);
+        }
+      }
+      // padding: 20px;
+    }
+    .hero_wrapper {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .left_wrapper {
+        margin-top: 50px;
+        .add_to_cart {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          margin-bottom: 20px;
+          button {
+            width: 150px;
+            height: 53px;
+            border: 1px solid var(--secondary-color);
+            color: white;
+            background-color: var(--secondary-color);
+            font-size: 16px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            text-transform: uppercase;
+            font-family: var(--main-font);
+          }
+        }
+        .thursted_certificates {
+          display: flex;
+          align-items: baseline;
+          gap: 30px;
+          margin-top: 80px;
+          img {
+            width: auto;
+            height: 90px;
+          }
+        }
+      }
+    }
+ 
+    
+  }
+  

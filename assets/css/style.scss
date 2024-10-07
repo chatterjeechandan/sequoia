@@ -1,0 +1,362 @@
+@font-face {
+  font-family: "GreycliffHebrewCF";
+  src: url("../fonts/Greycliff-CF/Demo_Fonts/Fontspring-DEMO-greycliffcf-regular.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GreycliffHebrewCF_bold";
+  src: url("../fonts/Greycliff-CF/Demo_Fonts/Fontspring-DEMO-greycliffcf-bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+
+:root {
+  --main-color: #f59d8f;
+  --secondary-color: #111821;
+  --body-color: #f9f6eb;
+  --white-color: #ffffff;
+  --teal-color:#BEE5DF;
+  --main-font: "Poppins", sans-serif;
+  --secondary-font: "GreycliffHebrewCF", sans-serif;
+  --font-size-h1: 60px;
+  --font-size-h2: 47px;
+  --font-size-h3: 42px;
+  --font-size-h4: 36px;
+  --font-size-h5: 27px;
+  --font-size-h1-small: 36px;
+  --font-size-h2-small: 25px;
+  --font-size-h3-small: 22px;
+  --font-size-h4-small: 18px;
+  --font-size-h5-small: 16px;
+  --font-size-body: 21px;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: 600;
+  font-style: normal;
+}
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: 600;
+  font-style: normal;
+}
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  font-style: normal;
+}
+h4 {
+  font-size: var(--font-size-h4);
+  font-weight: 600;
+  font-style: normal;
+}
+h5 {
+  font-size: var(--font-size-h5);
+  font-weight: 600;
+  font-style: normal;
+}
+p {
+  font-size: var(--font-size-body);
+  font-weight: 500;
+  font-style: normal;
+  font-family: var(--main-font);
+}
+html, body{
+  overflow-x: hidden;
+}
+body {
+  font-size: var(--font-size-body);
+  font-weight: 400;
+  font-style: normal;
+  font-family: var(--main-font);
+  position: relative;
+
+}
+.rubik-hebrew {
+  font-family: "Rubik", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  .bg-main {
+    background-color: transparent !important;
+  
+}
+  
+  .navbar-toggler {
+    border: 0;
+  }
+  .header-logo {
+    width: 250px;
+    height: 48px;
+  }
+  .navbar-nav {
+    margin-left: 520px;
+    gap: 30px;
+  }
+  .nav-item {
+    .nav-link {
+      font-family: "GreycliffHebrewCF_bold";
+      font-size: 25px;
+    }
+    .btn {
+      &.buy-now {
+        font-size: var(--font-size-body);
+        font-family: var(--main-font);
+        border: 1px solid var(--secondary-color);
+        color: var(--white-color);
+        background-color: var(--secondary-color);
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        text-transform: uppercase;
+        width: 144px;
+        height: 53px;
+      }
+    }
+  }
+
+  .felxy-right {
+    // flex: 1 1 0;
+    gap: 40px;
+    align-items: center;
+    margin-right: 35px;
+    span {
+      height: auto;
+    }
+  }
+}
+
+#side-menu {
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 25px;
+    line-height: normal;
+  }
+}
+#side-menu {
+  .btn {
+    &.buy-now {
+      text-transform: uppercase;
+      font-family: "GreycliffHebrewCF_bold";
+      font-size: 16px;
+      font-weight: 600;
+      padding: 12px 0;
+    }
+  }
+}
+
+footer{
+  background-color: var(--secondary-color);
+  padding-bottom: 50px;
+  .newsletter{
+    max-width: 1250px;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--teal-color);
+    border-radius: 10px;
+    padding: 80px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    .input-group{
+      max-width: 550px;
+      margin: 50px auto 50px auto;
+      input{
+        height: 50px;
+      }
+      .input-group-text{
+        border: 1px solid var(--secondary-color);
+        color: white;
+        background-color: var(--secondary-color);
+        font-size: 21px;
+        border-radius: 5px;
+        padding: 5px 25px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        text-transform: uppercase;
+        font-family: var(--main-font);
+        min-width: 150px;
+      }
+    }
+}
+.footer-links{
+  margin-top: 50px;
+  p{
+    color: var(--white-color);
+    font-weight: 600;
+  }
+}
+h4.c-name{
+  color: var(--white-color);
+  margin-top: 30px;
+}
+.rgs{
+  margin-top: 30px;
+  p{
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+}
+.pt-200{
+  padding-top: 200px;
+}
+.mb-200{
+  margin-bottom: 200px;
+}
+/* Responsive adjustments */
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  footer .newsletter{
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width: 1830px) and (min-width: 1200px) {
+  header {
+    
+    .navbar-toggler {
+      border: 0;
+    }
+    .header-logo {
+      width: 180px;
+      height: auto;
+    }
+    .navbar-nav {
+      margin-left: auto;
+      gap: 20px;
+    }
+    .nav-item {
+      .nav-link {
+        font-family: "GreycliffHebrewCF_bold";
+        font-size: 25px;
+      }
+      .btn {
+        &.buy-now {
+          font-size: var(--font-size-body);
+          font-family: var(--main-font);
+          border: 1px solid var(--secondary-color);
+          color: var(--white-color);
+          background-color: var(--secondary-color);
+          border-radius: 7px;
+          -webkit-border-radius: 7px;
+          -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+          -o-border-radius: 7px;
+          text-transform: uppercase;
+          width: 144px;
+          height: 53px;
+        }
+      }
+    }
+
+    .felxy-right {
+      // flex: 1 1 0;
+      margin-left: 20px;
+      gap: 20px;
+      align-items: center;
+      margin-right: 20px;
+      span {
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  footer .newsletter{
+    width: 90%;
+    padding: 50px 20px;
+    
+  }
+  footer .newsletter .input-group .input-group-text{
+   min-width: auto;
+   padding: 5px 10px;
+  }
+  
+  
+}
+@media screen and (max-width: 767px) {
+ 
+  h1 {
+    font-size: var(--font-size-h1-small);
+    font-weight: 600;
+    font-style: normal;
+  }
+  h2 {
+    font-size: var(--font-size-h2-small);
+    font-weight: 600;
+    font-style: normal;
+  }
+  h3 {
+    font-size: var(--font-size-h3-small);
+    font-weight: 600;
+    font-style: normal;
+  }
+  h4 {
+    font-size: var(--font-size-h4-small);
+    font-weight: 600;
+    font-style: normal;
+  }
+  h5 {
+    font-size: var(--font-size-h5-small);
+    font-weight: 600;
+    font-style: normal;
+  }
+  header {
+    .header-logo {
+      width: 150px;
+      height: 28px;
+    }
+    .felxy-right {
+      flex: 1 1 auto;
+      gap: 10px;
+      align-items: center;
+      justify-content: flex-end;
+      // padding-right: 50px;
+      margin-right: 0;
+      span {
+        height: auto;
+        line-height: 1;
+      }
+    }
+ 
+    .nav-item {
+      .nav-link {
+        font-family: "GreycliffHebrewCF_bold";
+        font-size: 25px;
+      }
+    }
+  }
+}
