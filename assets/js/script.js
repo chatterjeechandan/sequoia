@@ -101,7 +101,7 @@ var  home_swiper = new Swiper(".home_swiper", {
       spaceBetween: 20,
     },
     1440: {
-      slidesPerView: 5.6,
+      slidesPerView: 6.7,
       spaceBetween: 30,
     },
   },
