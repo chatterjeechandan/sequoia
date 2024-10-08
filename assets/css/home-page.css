@@ -1,5 +1,5 @@
 .hero_wrapper {
-  padding-top: 160px;
+  padding-top: 300px;
   padding-bottom: 50px;
   background-color: var(--teal-color);
 }
@@ -400,5 +400,9 @@
 
   footer .footer-links {
     margin-top: -85px !important;
+  }
+
+  .hero_wrapper {
+    padding-top: 150px;
   }
 }/*# sourceMappingURL=home-page.css.map */

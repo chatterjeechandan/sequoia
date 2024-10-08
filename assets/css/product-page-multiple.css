@@ -463,6 +463,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  color: #fff;
 }
 .buy-now-paralax button.btn.buy-now {
   border: 1px solid var(--secondary-color);
@@ -533,6 +534,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+.emp_comunity .container {
+  padding-bottom: 300px;
 }
 .emp_comunity button.learn_more {
   border: 1px solid var(--secondary-color);
@@ -750,6 +754,7 @@
 
 .buy-now-paralax {
   background-position: 28%;
+  padding-bottom: 100px;
 }
 
 .buy-now-paralax .container{
