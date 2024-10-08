@@ -3,6 +3,11 @@
   padding-bottom: 50px;
   background-color: var(--teal-color);
 }
+
+.hero_wrapper .rv-row > .col-xl-6:nth-of-type(2) {
+  width:44%;
+}
+
 .hero_wrapper .left_wrapper h1 {
   font-family: "GreycliffHebrewCF_bold";
   font-size: 80px;
@@ -11,8 +16,10 @@
 }
 .hero_wrapper .left_wrapper h5 {
   font-family: "GreycliffHebrewCF_bold";
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1em;
   margin-bottom: 50px;
+  font-weight: 400;
 }
 .hero_wrapper .left_wrapper .add_to_cart {
   display: flex;
@@ -43,8 +50,8 @@
   height: auto;
 }
 .hero_wrapper .minus-row {
-  margin-top: 100px;
-  margin-bottom: -150px;
+  margin-top: 75px;
+  margin-bottom: -179px;
 }
 .hero_wrapper .minus-row .white_box {
   box-shadow: 20px 20px 12px rgba(0, 0, 0, 0.4);
@@ -63,6 +70,7 @@
 .hero_wrapper .minus-row .white_box p {
   font-size: 16px;
   color: darkgray;
+  font-weight: 400;
 }
 
 .slider_white_bg {
@@ -121,9 +129,9 @@
   border: 1px solid var(--secondary-color);
   color: white;
   background-color: var(--secondary-color);
-  font-size: 21px;
+  font-size: 18px;
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -135,7 +143,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 30px;
+  margin: 10px 20px;
 }
 .slider_white_bg .swiper_controls {
   position: relative;
@@ -152,8 +160,8 @@
 }
 .slider_white_bg .swiper_controls .swiper-pagination .swiper-pagination-bullet {
   background: var(--secondary-color);
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 .slider_white_bg .swiper_controls .swiper-button-prev {
   position: static;
@@ -175,8 +183,9 @@
 }
 
 .ct-img {
-  width: 100%;
+  width: 150%;
   height: auto;
+  margin-top: -100px;
 }
 
 .after_slider {
@@ -304,8 +313,11 @@
 .send_slider .grid_sction .btm_g p {
   margin: 0;
   padding-right: 50px;
+  font-weight: 400;
 }
-
+.send_slider .container h1 {
+  padding: 75px 0;
+}
 .feild-bg {
   display: none;
 }
@@ -406,4 +418,12 @@
   .hero_wrapper {
     padding-top: 150px;
   }
+
+  .hero_wrapper .rv-row > .col-xl-6:nth-of-type(2) {
+    width: 100%;
+  }
+  .ct-img {
+    width: 100%;
+    margin: 0px;
+}
 }/*# sourceMappingURL=home-page.css.map */

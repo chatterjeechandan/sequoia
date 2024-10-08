@@ -20,10 +20,10 @@
   --main-font: "Poppins", sans-serif;
   --secondary-font: "GreycliffHebrewCF", sans-serif;
   --font-size-h1: 60px;
-  --font-size-h2: 47px;
-  --font-size-h3: 42px;
-  --font-size-h4: 36px;
-  --font-size-h5: 1.5em;
+  --font-size-h2: 42px;
+  --font-size-h3: 37px;
+  --font-size-h4: 30px;
+  --font-size-h5: 24px;
   --font-size-h1-small: 36px;
   --font-size-h2-small: 25px;
   --font-size-h3-small: 22px;
@@ -101,7 +101,7 @@ header .navbar-toggler {
   border: 0;
 }
 header .header-logo {
-  width: 150px;
+  width: 180px;
   height: 48px;
 }
 header .navbar-nav {
@@ -113,7 +113,7 @@ header .nav-item .nav-link {
   font-size: 21px;
 }
 header .nav-item .btn.buy-now {
-  font-size: var(--font-size-body);
+  font-size: 18px;
   font-family: var(--main-font);
   border: 1px solid var(--secondary-color);
   color: var(--white-color);
@@ -124,8 +124,8 @@ header .nav-item .btn.buy-now {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   text-transform: uppercase;
-  width: 144px;
-  height: 53px;
+  width: 135px;
+  height: 50px;
 }
 header .felxy-right {
   gap: 40px;
@@ -178,6 +178,12 @@ footer .newsletter {
   position: relative;
   top: -150px;
 }
+footer .newsletter h1{
+  margin-bottom: 10px;
+}
+footer .newsletter h4{
+  font-weight: 400;
+}
 footer .newsletter .input-group {
   max-width: 550px;
   margin: 50px auto 50px auto;
@@ -213,10 +219,12 @@ footer .rgs {
 }
 footer .rgs p {
   color: var(--white-color);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
 }
-
+footer .rgs > .col-xl-6:nth-of-type(2) p {
+  text-align: left;
+}
 .pt-200 {
   padding-top: 60px;
 }
