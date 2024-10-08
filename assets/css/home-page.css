@@ -96,7 +96,8 @@
 }
 .slider_white_bg .wapper_inter .fx-uuper h3 {
   text-align: left;
-  font-size: 40px;
+  font-size: 24px;
+  margin: 0 auto;
 }
 .slider_white_bg .wapper_inter .fx-uuper p {
   display: flex;
