@@ -735,4 +735,24 @@
     width: auto;
     height: 90px;
   }
+
+  .lg-sec, .pd_s, .whats_inside, .body_thanks, .testimonial, .similer_product {
+    padding: 60px 0;
+  }
+
+  .lg-sec {
+    padding-bottom: 0;
+  }
+
+  footer .footer-links {
+    margin-top: -85px !important;
+}
+
+.buy-now-paralax {
+  background-position: 28%;
+}
+
+.buy-now-paralax .container{
+  padding-top: 65px;
+}
 }/*# sourceMappingURL=product-page-multiple.css.map */

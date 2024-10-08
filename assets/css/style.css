@@ -200,9 +200,6 @@ footer .newsletter .input-group .input-group-text {
   font-family: var(--main-font);
   min-width: 150px;
 }
-footer .footer-links {
-  margin-top: 50px;
-}
 footer .footer-links p {
   color: var(--white-color);
   font-weight: 600;

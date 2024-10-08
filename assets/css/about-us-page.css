@@ -179,7 +179,7 @@
   width: 100%;
 }
 .certification .left-wrapper-certification {
-  text-align: left;
+  text-align: right;
 }
 .certification .left-wrapper-certification h1 {
   color: var(--white-color);
@@ -189,12 +189,16 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-bottom: 50px;
 }
 .certification .left-wrapper-certification h5 {
   color: var(--white-color);
   margin-bottom: 50px;
+}
+
+.about-footer {
+  padding-top: 80px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -304,7 +308,7 @@
 }
 @media screen and (max-width: 767px) {
   .reason {
-    padding: 120px 0;
+    padding: 60px 0;
     background-color: var(--body-color);
   }
   .reason h1 {
@@ -334,4 +338,34 @@
   .how-it-made {
     background-size: 320px;
   }
+  .about-footer {
+    padding-top: 0px;
+    background: #000;
+  }
+  .about-us-after-hero, .empowering-section-aboutus, .what_is_it, .shop-now_how, .certification, .guidelines {
+    padding: 60px 0;
+  }
+
+  .how-it-made .container {
+    padding-top: 425px;
+    padding-bottom: 60px;
+  }
+
+  .hero-aboutus {
+    background-position: 41% 9%;
+  }
+
+  .hero-aboutus .container {
+    padding-bottom: 150px;
+  }
+
+  .hero-our-lab {
+    background-position: 30%;
+  }
+
+  .hero-our-lab .container{
+    padding-top: 230px;
+  }
+  
+
 }/*# sourceMappingURL=about-us-page.css.map */

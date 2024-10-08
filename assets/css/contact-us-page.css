@@ -72,8 +72,27 @@
   padding: 150px 0;
 }/*# sourceMappingURL=contact-us-page.css.map */
 
+footer {
+  padding-top: 80px;
+}
+
 @media screen and (max-width: 767px) {
   .contactus_hero h5 {
     padding-left: 0px;
+}
+.contactus_hero {
+  padding: 110px 0 30px;
+}
+
+footer {
+  padding-top: 0px;
+}
+
+.contact-info {
+  padding: 60px 0;
+}
+
+.contact-info .container{
+  padding-top: 120px;
 }
 }

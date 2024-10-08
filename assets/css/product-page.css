@@ -526,7 +526,7 @@
 }
 @media screen and (max-width: 767px) {
   .reason {
-    padding: 120px 0;
+    padding: 60px 0;
     background-color: var(--body-color);
   }
   .reason h1 {
@@ -600,5 +600,19 @@
   .hero_wrapper .left_wrapper .thursted_certificates img {
     width: auto;
     height: 90px;
+  }
+  .body_thanks, .pd_s, .frequently_brought, .testimonial {
+    padding: 60px 0;
+  }
+  footer .footer-links {
+    margin-top: -85px !important;
+  }
+
+  .buy-now-paralax {
+    background-position: 28%;
+  }
+  
+  .buy-now-paralax .container{
+    padding-top: 65px;
   }
 }/*# sourceMappingURL=product-page.css.map */

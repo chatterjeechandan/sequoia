@@ -358,7 +358,7 @@
 }
 @media screen and (max-width: 767px) {
   .after_slider {
-    padding: 120px 0;
+    padding: 60px 0;
     background-color: var(--main-color);
     background-image: none;
   }
@@ -393,5 +393,12 @@
     font-family: "GreycliffHebrewCF_bold";
     font-size: 60px;
     margin-bottom: 50px;
+  }
+  .after_slider button {
+    height: auto;
+  }
+
+  footer .footer-links {
+    margin-top: -85px !important;
   }
 }/*# sourceMappingURL=home-page.css.map */
