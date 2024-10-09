@@ -32,6 +32,13 @@
   --font-size-body: 21px;
 }
 
+@media screen and (max-width: 1440px) {
+  html, body {
+    transform: none;
+    zoom: 80%;
+  }
+}
+
 h1 {
   font-size: var(--font-size-h1);
   font-weight: 600;
