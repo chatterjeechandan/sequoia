@@ -77,6 +77,10 @@ footer {
   padding-top: 80px;
 }
 
+.disclaimer-section {
+  margin-top: -50px;
+}
+
 @media screen and (max-width: 767px) {
   .contactus_hero h5 {
     padding-left: 0px;
@@ -95,5 +99,9 @@ footer {
 
 .contact-info .container{
   padding-top: 120px;
+}
+
+.disclaimer-section {
+  margin-bottom: 0;
 }
 }

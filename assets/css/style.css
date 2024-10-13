@@ -240,6 +240,23 @@ footer .rgs > .col-xl-6:nth-of-type(2) p {
   margin-bottom: 60px;
 }
 
+.disclaimer-section {
+  padding: 40px;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  margin-top: -156px;
+}
+
+.disclaimer-section h2 {
+  font-size: 20px;
+}
+
+.disclaimer-section p {
+  font-size: 14px;
+  margin: 0;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
   footer .newsletter {
@@ -341,5 +358,9 @@ footer .rgs > .col-xl-6:nth-of-type(2) p {
   header .nav-item .nav-link {
     font-family: "GreycliffHebrewCF_bold";
     font-size: 21px;
+  }
+
+  .disclaimer-section {
+    margin-bottom: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

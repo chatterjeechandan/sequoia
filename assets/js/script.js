@@ -106,12 +106,12 @@ var  home_swiper = new Swiper(".home_swiper", {
     },
   },
   // If we need pagination
-  pagination: { el: '.swiper-pagination', clickable: true },
+  pagination: { el: '.swiper-pagination.pg-3', clickable: true },
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-next.pg-3",
+    prevEl: ".swiper-button-prev.pg-3",
   },
 });
 var  homeslider_two = new Swiper(".homeslider_two", {
