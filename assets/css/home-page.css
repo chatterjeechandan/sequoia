@@ -358,6 +358,7 @@
 
 .guarantee-section .text-container {
   flex: 1 1 auto;
+  text-align: right;
 }
 
 .guarantee-section .text-container h2 {
