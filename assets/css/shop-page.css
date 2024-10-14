@@ -1,0 +1,133 @@
+.hero-scientist {
+  min-height: 800px;
+  background-position: 100% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.similer_product {
+  background-color: var(--body-color);
+  padding: 80px 0 150px;
+}
+.similer_product h4 {
+  margin-bottom: 80px;
+}
+.similer_product .sm_product_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.similer_product .sm_product_wrapper img {
+  height: 300px;
+  width: auto;
+}
+.similer_product .sm_product_wrapper .pd_name {
+  min-width: 100%;
+}
+.similer_product .sm_product_wrapper .pd_des {
+  min-width: 100%;
+  margin-bottom: 50px;
+}
+.similer_product .sm_product_wrapper .sm_pd_price {
+  min-width: 100%;
+  font-weight: 400;
+}
+.similer_product .sm_product_wrapper button.buy-now {
+  border: 1px solid var(--secondary-color);
+  color: white;
+  background-color: var(--secondary-color);
+  font-size: 21px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  min-width: 100%;
+}
+
+.filter-section {
+  padding: 15px 0 50px;
+  text-align: center;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.filter-list li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.filter-list a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.filter-list a:hover,
+.filter-list a.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.shop-banner-container {
+  position: relative;
+}
+
+.hero-scientist .swiper-button-next, .hero-scientist .swiper-button-prev,  .hero-scientist .swiper-pagination-bullet-active {
+  color: #000 !important;
+}
+
+.hero-scientist .swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-scientist {
+    min-height: 500px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-scientist {
+    background-position: 41% 9%;
+  }
+  .hero-scientist .container {
+    padding-bottom: 150px;
+  }
+  .disclaimer-section {
+    margin-bottom: 0px;
+    padding: 50px 30px 0;
+  }
+  .similer_product {
+    padding: 60px 0 150px;
+  }
+  .filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .filter-list li {
+      margin: 10px;
+  }
+
+  .hero-scientist .swiper-button-next, .hero-scientist .swiper-button-prev {
+    bottom: 15px;
+    top: auto;
+  }
+}

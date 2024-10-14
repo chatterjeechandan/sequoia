@@ -209,6 +209,20 @@ var info_pd_swiper = new Swiper(".info_pd_swiper", {
   },
 });
 
+var info_pd_swiper = new Swiper(".shop_banner", {
+  slidesPerView: 1,
+  direction: "horizontal",
+  loop: true,
+  centeredSlides:true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 Fancybox.bind('[data-fancybox="gallery"]', {
   compact: false,
   contentClick: "iterateZoom",
