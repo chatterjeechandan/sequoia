@@ -43,6 +43,10 @@
   height: auto;
 }
 
+.team-profiles .img-container img {
+  width: 100%;
+}
+
 .team-profiles .text-container {
   padding: 0 100px !important;
 }
@@ -78,12 +82,7 @@
     font-size: 1rem;
   }
 
-  .team-profiles .img-container {
-    order: 1;
-  }
-
   .team-profiles .text-container {
-    order: 2;
     padding: 50px 30px !important;
   }
 }

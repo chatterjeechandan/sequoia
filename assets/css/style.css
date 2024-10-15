@@ -364,4 +364,8 @@ footer .rgs > .col-xl-6:nth-of-type(2) p {
   .disclaimer-section {
     margin-bottom: 100px;
   }
+
+  footer .rgs > .col-xl-6:nth-of-type(2) p {
+    text-align: right;
+  }
 }/*# sourceMappingURL=style.css.map */
